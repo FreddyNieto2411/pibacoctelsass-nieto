@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piba Coctel</title>
-    <link rel="stylesheet" href="../css/estilos.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <p class="logo">Piba Coctel</p>
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="./acercademi.html">Acecar de mi</a>
-                <a href="./cursosytalleres.html">Cursos y talleres</a>
-                <a href="./servicios.html">Servicios</a>
-                <a href="./contacto.html">Contacto</a>      
-            </nav>
-        </div>
-    </header>
-
-
-    <main class="container">
-        <div>
-            <h1>Contacto</h1>
-            <p>¿Tenés dudas? Completa el formulario y preguntanos lo que quieras.</p>
-            <div>
-            <form action="" method="get" enctype="text/plain">
-                <div>
-                    <label for="username">Nombre</label>
-                    <input type="text" name="Nombre" id="username" required>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Piba Coctel</title>
+        <link rel="stylesheet" href="./estilos/estilos.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                  <a><img class="logo" src="./media/logo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#">Acerca de mi</a>
+                      <a class="nav-link" href="#">Cursos y talleres</a>
+                      <a class="nav-link" href="#">contacto</a>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                    <label for="usermail">Email</label>
-                    <input type="email" name="Email" id="usermail" required>
+              </nav>
+        </header>     
+    
+            
+            <section>
+                <div class="container w-50 m-auto text-center p-2" id="equipo">
+                    <h1 class="mb-5 fs-2">¿Tenés dudas? <span class="text-primary">Completa el formulario y preguntanos lo que quieras.</span></h1>
                 </div>
-                <div>
-                    <label for="number">Telefono</label>
-                    <input type="number" name="Telefono" id="number" required>
-                </div>
-                <div>
-                    <label for="msj">Mensaje</label>
-                    <textarea name="mensaje" id="msj" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
+            </section>    
+    
+    
+            <section class="container">
+            <div>    
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
             </div>
-        </div>   
-
-    <footer>
-        <div class="container">
-            <p>&copy;Piba Coctel 2022</p>
-        </div>
-    </footer>
-</body>
-</html>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Telefono">
+            </div>    
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+            </div>
+            </section>  
+    
+    
+        <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+            <p class="fs-5 px-3  pt-3">Piba coctel &copy; Todos Los Derechos Reservados 2020</p>
+            <div id="iconos" >
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>  
+            </div>
+          </footer>
+    
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+    </html>
