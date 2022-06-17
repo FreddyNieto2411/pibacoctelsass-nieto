@@ -1,0 +1,25 @@
+.boton{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: $colorboton;
+    &:hover{
+        background-color: rgb(101, 33, 165);
+    }
+}
+
+.botonVerde{
+    @extend .boton;
+    background-color: green;
+    color: yellow;
+}
+
+.botonRojo{
+    @extend .boton;
+    background-color: red;
+    color: yellow;
+}

@@ -366,4 +366,57 @@ header a:hover {
     background-position-x: calc(100vw - 800px);
   }
 }
+
+.boton, .botonVerde, .botonRojo {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
+}
+
+.boton:hover, .botonVerde:hover, .botonRojo:hover {
+  background-color: #6521a5;
+}
+
+.botonVerde {
+  background-color: green;
+  color: yellow;
+}
+
+.botonRojo {
+  background-color: red;
+  color: yellow;
+}
+
+.letrapequenia {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.letramediana {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.letragrande {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.letragrande {
+  color: orange;
+}
+
+.letramediana {
+  color: rgba(39, 205, 186, 0.421);
+}
+
+.letrapequena {
+  color: rgba(36, 36, 149, 0.841);
+}
 /*# sourceMappingURL=estilos.css.map */

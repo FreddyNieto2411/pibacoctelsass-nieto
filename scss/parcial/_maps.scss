@@ -1,0 +1,17 @@
+$fontcolor: (
+    "encabezado": orange,
+    "titulo":rgba(39, 205, 186, 0.421),
+    "texto":rgba(36, 36, 149, 0.841),
+);
+
+.letragrande {
+    color: map-get($map: $fontcolor, $key: encabezado);
+}
+
+.letramediana {
+    color: map-get($map: $fontcolor, $key: titulo);
+}
+
+.letrapequena {
+    color: map-get($map: $fontcolor, $key: texto);
+}
