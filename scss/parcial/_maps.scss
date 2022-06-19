@@ -5,13 +5,13 @@ $fontcolor: (
 );
 
 .letragrande {
-    color: map-get($map: $fontcolor, $key: encabezado);
+    color: map-get($fontcolor, "encabezado");
 }
 
 .letramediana {
-    color: map-get($map: $fontcolor, $key: titulo);
+    color: map-get($fontcolor, "titulo");
 }
 
 .letrapequena {
-    color: map-get($map: $fontcolor, $key: texto);
+    color: map-get($fontcolor, "texto");
 }

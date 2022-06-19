@@ -1,4 +1,6 @@
 @import "./parcial/variables";
+@import "./parcial/maps"
+@import "./parcial/mixins";
 @import "./parcial/general";
 @import "./parcial/cursosytalleres";
 @import "./parcial/footer";
@@ -7,5 +9,3 @@
 @import "./parcial/hero2";
 @import "./parcial/mediaqueries";
 @import "./parcial/botonescyt";
-@import "./parcial/mixins";
-@import "./parcial/_maps.scss"
